@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+import React, { useState, useEffect, useRef } from 'react';
+
+const chords = [
+  'C', 'Dm', 'Em', 'F', 'G', 'Am', 'Bdim',
+  // ... other chords
+];
+
+const levels = [
+  { level: 1, threshold: 85 },
+  { level: 2, threshold: 90 },
+  { level: 3, threshold: 95 },
+  // ... other levels
+];
+
+function App() {
+  const [currentChord, setCurrentChord] = useState('');
+  const [lastChord, setLastChord] = useState('');
+  const [currentLevel, setCurrentLevel] = useState(1);
+  const [score, setScore] = useState(0);
+  const [accuracy, setAccuracy] = useState(0);
+  const [gameStarted, setGameStarted] = useState(false);
+
+  const recentChordsRef = useRef([]);
+
+  const generateQuestion = () => {
+    let newChord = '';
+    const maxHistory = 3;
+    const availableChords = chords.filter(ch => !recentChordsRef.current.includes(ch));
+
+    if (availableChords.length === 0) {
+      recentChordsRef.current = [];
+      newChord = chords[Math.floor(Math.random() * chords.length)];
+    } else {
+      newChord = availableChords[Math.floor(Math.random() * availableChords.length)];
+    }
+
+    recentChordsRef.current.push(newChord);
+    if (recentChordsRef.current.length > maxHistory) {
+      recentChordsRef.current.shift();
+    }
+
+    setCurrentChord(newChord);
+  };
+
+  const startGame = () => {
+    setScore(0);
+    setAccuracy(0);
+    setGameStarted(true);
+    generateQuestion();
+  };
+
+  const checkAnswer = (answer) => {
+    // logic to check answer
+    // update score and accuracy
+  };
+
+  const nextLevel = () => {
+    const levelInfo = levels.find(l => l.level === currentLevel);
+    if (accuracy >= levelInfo.threshold) {
+      if (currentLevel < levels.length) {
+        setCurrentLevel(prev => prev + 1);
+        setTimeout(() => {
+          startGame(); // parte direttamente il gioco senza passare dal menu
+        }, 100);
+      } else {
+        // già all'ultimo livello
+      }
+    } else {
+      // show message to retry
+    }
+  };
+
+  useEffect(() => {
+    if (gameStarted) {
+      generateQuestion();
+    }
+  }, [currentLevel]);
+
+  return (
+    <div>
+      {/* UI elements */}
+    </div>
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+export default App;
