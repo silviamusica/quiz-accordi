@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const ChordMasterApp = () => {
   const [screen, setScreen] = useState('menu');
@@ -41,10 +41,7 @@ const ChordMasterApp = () => {
         { notes: 'Sol Sib Re', name: 'Sol minore', symbol: 'Gm', explanation: 'Triade minore: fondamentale + terza minore + quinta giusta (relativo minore di Sib maggiore)' }
       ]
     },
-    3: { // Livello 3: Mix di maggiori e minori
-      questionsPerRound: 8,
-      chords: [] // Verrà popolato con i chords dei livelli 1 e 2
-    },
+    // Livello 3 rimosso
     4: { // Livello 4: Solo settime di dominante
       questionsPerRound: 6,
       chords: [
@@ -58,10 +55,7 @@ const ChordMasterApp = () => {
         { notes: 'Sib Re Fa Lab', name: 'Si bemolle settima', symbol: 'Bb7', explanation: 'Accordo di settima di dominante: triade maggiore + settima minore' }
       ]
     },
-    5: { // Livello 5: Mix con settime di dominante
-      questionsPerRound: 10,
-      chords: [] // Mix dei precedenti
-    },
+    // Livello 5 rimosso
     6: { // Livello 6: Solo settime maggiori
       questionsPerRound: 8,
       chords: [
@@ -88,10 +82,7 @@ const ChordMasterApp = () => {
         { notes: 'Sol Sib Re Fa', name: 'Sol minore settima', symbol: 'Gm7', explanation: 'Settima minore: triade minore + settima minore' }
       ]
     },
-    8: { // Livello 8: Mix di tutte le settime
-      questionsPerRound: 12,
-      chords: [] // Mix delle settime
-    },
+    // Livello 8 rimosso
     9: { // Livello 9: Solo accordi di sesta
       questionsPerRound: 6,
       chords: [
@@ -125,10 +116,7 @@ const ChordMasterApp = () => {
         { notes: 'La Do# Mi#', name: 'La aumentato', symbol: 'A+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' }
       ]
     },
-    12: { // Livello 12: Mix con diminuiti e aumentati
-      questionsPerRound: 15,
-      chords: [] // Mix completo
-    },
+    // Livello 12 rimosso
     13: { // Livello 13: Solo inversioni (slash chords)
       questionsPerRound: 10,
       chords: [
@@ -153,29 +141,24 @@ const ChordMasterApp = () => {
         { notes: 'La Do# Mi Sol Si', name: 'La nona', symbol: 'A9', explanation: 'Accordo di nona: settima di dominante + nona maggiore' }
       ]
     },
-    15: { // Livello 15: Mix finale con tutti gli accordi
-      questionsPerRound: 20,
-      chords: [] // Mix completo di tutti gli accordi
-    }
+    15: { // Livello 15: tutti gli accordi disponibili
+      questionsPerRound: 12, // numero medio di domande
+      chords: [] // verrà riempito subito dopo la definizione di chordDatabase
+    },
   };
 
-  // Popola i livelli di mix
-  useEffect(() => {
-    // Livello 3: maggiori + minori
-    chordDatabase[3].chords = [...chordDatabase[1].chords, ...chordDatabase[2].chords];
-    
-    // Livello 5: maggiori + minori + settime dominante
-    chordDatabase[5].chords = [...chordDatabase[3].chords, ...chordDatabase[4].chords];
-    
-    // Livello 8: tutte le settime
-    chordDatabase[8].chords = [...chordDatabase[4].chords, ...chordDatabase[6].chords, ...chordDatabase[7].chords];
-    
-    // Livello 12: tutti i precedenti + diminuiti + aumentati
-    chordDatabase[12].chords = [...chordDatabase[5].chords, ...chordDatabase[8].chords, ...chordDatabase[9].chords, ...chordDatabase[10].chords, ...chordDatabase[11].chords];
-    
-    // Livello 15: tutti gli accordi
-    chordDatabase[15].chords = [...chordDatabase[12].chords, ...chordDatabase[13].chords, ...chordDatabase[14].chords];
-  }, []);
+  // Popola il livello 15 con l’unione di tutti gli accordi precedenti
+  chordDatabase[15].chords = Array.from(
+    new Set(
+      Object.values(chordDatabase)
+        .filter(lvl => lvl.chords) // sicurezza
+        .flatMap(lvl => lvl.chords)
+    )
+  );
+
+  // Ordine progressivo dei livelli reali
+  const orderedLevels = Object.keys(chordDatabase).map(Number).sort((a, b) => a - b);
+  const getDisplayLevel = (lvl) => orderedLevels.indexOf(lvl) + 1;
 
   // Teoria degli accordi per la sezione Impara
   const theoryDatabase = {
@@ -427,22 +410,31 @@ const ChordMasterApp = () => {
       <div className="space-y-4">
         <div>
           <label className="block text-lg font-medium mb-2">Livello di difficoltà:</label>
-          <select value={level} onChange={(e) => setLevel(Number(e.target.value))} className="w-full p-2 border rounded-lg">
-            <option value={1}>Livello 1 - Solo accordi maggiori (5 domande)</option>
-            <option value={2}>Livello 2 - Solo accordi minori (5 domande)</option>
-            <option value={3}>Livello 3 - Maggiori e minori (8 domande)</option>
-            <option value={4}>Livello 4 - Solo settime di dominante (6 domande)</option>
-            <option value={5}>Livello 5 - Mix con settime di dominante (10 domande)</option>
-            <option value={6}>Livello 6 - Solo settime maggiori (8 domande)</option>
-            <option value={7}>Livello 7 - Solo settime minori (8 domande)</option>
-            <option value={8}>Livello 8 - Tutte le settime (12 domande)</option>
-            <option value={9}>Livello 9 - Solo accordi di sesta (6 domande)</option>
-            <option value={10}>Livello 10 - Solo accordi diminuiti (6 domande)</option>
-            <option value={11}>Livello 11 - Solo accordi aumentati (6 domande)</option>
-            <option value={12}>Livello 12 - Mix completo (15 domande)</option>
-            <option value={13}>Livello 13 - Solo inversioni (10 domande)</option>
-            <option value={14}>Livello 14 - Solo accordi di nona (8 domande)</option>
-            <option value={15}>Livello 15 - Tutti gli accordi (20 domande)</option>
+          <select
+            value={level}
+            onChange={(e) => setLevel(Number(e.target.value))}
+            className="w-full p-2 border rounded-lg"
+          >
+            {orderedLevels.map((lvlKey) => (
+              <option key={lvlKey} value={lvlKey}>
+                {`Livello ${getDisplayLevel(lvlKey)} - ${(() => {
+                  switch (lvlKey) {
+                    case 1: return 'Solo accordi maggiori (5 domande)';
+                    case 2: return 'Solo accordi minori (5 domande)';
+                    case 4: return 'Solo settime di dominante (6 domande)';
+                    case 6: return 'Solo settime maggiori (8 domande)';
+                    case 7: return 'Solo settime minori (8 domande)';
+                    case 9: return 'Solo accordi di sesta (6 domande)';
+                    case 10: return 'Solo accordi diminuiti (6 domande)';
+                    case 11: return 'Solo accordi aumentati (6 domande)';
+                    case 13: return 'Solo inversioni (10 domande)';
+                    case 14: return 'Solo accordi di nona (8 domande)';
+                    case 15: return 'Mega mix: tutti gli accordi (12 domande)';
+                    default: return '';
+                  }
+                })()}`}
+              </option>
+            ))}
           </select>
         </div>
         <button onClick={() => setScreen('menu')} className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
@@ -547,7 +539,7 @@ const ChordMasterApp = () => {
     return (
       <div className="space-y-6">
         <div className="text-center">
-          <h2 className="text-2xl font-bold">Modalità Gioco - Livello {level}</h2>
+          <h2 className="text-2xl font-bold">Modalità Gioco - Livello {getDisplayLevel(level)}</h2>
           <p className="text-gray-600">Domanda {questionsCount + 1} / {getQuestionsPerRound()}</p>
           <p className="text-sm text-gray-500">Punteggio: {score} / {totalQuestions}</p>
         </div>
@@ -624,24 +616,30 @@ const ChordMasterApp = () => {
   const ResultsScreen = () => {
     const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
     const passed = percentage >= 80;
-    
+
+    // calcola il prossimo livello realmente esistente
+    const nextLevel = orderedLevels.find(lvl => lvl > level);
+
     return (
       <div className="text-center space-y-6">
-        <h2 className="text-2xl font-bold">Risultati - Livello {level}</h2>
+        <h2 className="text-2xl font-bold">Risultati - Livello {getDisplayLevel(level)}</h2>
         <div className="bg-white p-6 rounded-lg shadow-md">
           <p className="text-3xl font-bold text-blue-600 mb-2">{percentage}%</p>
           <p className="text-lg">Hai risposto correttamente a {score} domande su {totalQuestions}</p>
-          
-          {passed && level < 15 ? (
+
+          {passed && nextLevel ? (
             <div className="mt-4 p-4 bg-green-100 border border-green-500 rounded-lg">
               <p className="text-green-700 font-semibold">🎉 Complimenti! Puoi passare al livello successivo!</p>
-              <button onClick={() => {
-                setLevel(level + 1);
-                setTimeout(() => {
-                  startGame();
-                }, 0);
-              }} className="mt-2 bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition-colors">
-                Vai al Livello {level + 1}
+              <button
+                onClick={() => {
+                  setLevel(nextLevel);
+                  setTimeout(() => {
+                    startGame();
+                  }, 0);
+                }}
+                className="mt-2 bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition-colors"
+              >
+                Vai al Livello {getDisplayLevel(nextLevel)}
               </button>
             </div>
           ) : !passed ? (
@@ -654,7 +652,7 @@ const ChordMasterApp = () => {
             </div>
           )}
         </div>
-        
+
         <div className="space-y-2">
           <button onClick={startGame} className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
             Gioca Ancora
@@ -668,29 +666,16 @@ const ChordMasterApp = () => {
   };
 
   return (
-    <div className="min-h-screen relative overflow-hidden" style={{
-      background: 'linear-gradient(to bottom, #0a0e27 0%, #151b3d 50%, #1e2951 100%)'
-    }}>
-      {/* Stelle animate */}
-      <div className="absolute inset-0 overflow-hidden">
-        {[...Array(100)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute bg-white rounded-full animate-pulse"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              width: `${Math.random() * 3 + 1}px`,
-              height: `${Math.random() * 3 + 1}px`,
-              animationDelay: `${Math.random() * 3}s`,
-              animationDuration: `${Math.random() * 2 + 2}s`,
-              opacity: Math.random() * 0.8 + 0.2
-            }}
-          />
-        ))}
+    <div
+      className="min-h-screen relative overflow-hidden"
+      style={{
+        background: 'linear-gradient(to bottom, #0a0e27, #151b3d 50%, #1e2951 100%)'
+      }}
+    >
+      {/* Stellar background */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <div className="w-full h-full bg-[url('/starfield.png')] bg-cover animation-pulse opacity-50"></div>
       </div>
-      
-      {/* Contenuto principale */}
       <div className="relative z-10 p-4">
         <div className="max-w-md mx-auto">
           <div className="bg-white/95 backdrop-blur-sm rounded-lg shadow-2xl p-6">
@@ -700,18 +685,10 @@ const ChordMasterApp = () => {
             {screen === 'game' && <GameScreen />}
             {screen === 'results' && <ResultsScreen />}
           </div>
-          
-          <div className="text-center mt-6 text-white/80 text-sm">
-            <p className="mb-8">🎵 ChordMaster - Trainer Accordi Musicali</p>
-            <div className="flex justify-center mt-8">
-              <div style={{ fontSize: '48px', fontFamily: 'Bodoni, "Bodoni MT", "Didot", "Bodoni 72", "Bodoni Old Style", serif' }}>
-                <span style={{ fontWeight: 'normal', color: 'white' }}>sognando</span>
-                <span style={{ fontStyle: 'italic', color: '#ff0000' }}>il</span>
-                <span style={{ fontWeight: 'bold', color: 'white' }}>piano</span>
-              </div>
-            </div>
-          </div>
         </div>
+      </div> {/* end relative z-10 */}
+      <div className="text-center mt-6 text-white/80 text-sm relative z-10 p-4">
+        © 2025 · ChordMaster by Silvia Platania 2025 – Tutti i diritti riservati
       </div>
     </div>
   );
