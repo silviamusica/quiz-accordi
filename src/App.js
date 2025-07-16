@@ -82,7 +82,10 @@ const ChordMasterApp = () => {
         { notes: 'Sol Sib Re Fa', name: 'Sol minore settima', symbol: 'Gm7', explanation: 'Settima minore: triade minore + settima minore' }
       ]
     },
-    // Livello 8 rimosso
+    8: { // Livello 8: Ripasso di tutte le settime (dominante, maggiore, minore)
+      questionsPerRound: 12,
+      chords: [] // verrà riempito più sotto
+    },
     9: { // Livello 9: Solo accordi di sesta
       questionsPerRound: 6,
       chords: [
@@ -154,6 +157,15 @@ const ChordMasterApp = () => {
         .filter(lvl => lvl.chords) // sicurezza
         .flatMap(lvl => lvl.chords)
     )
+  );
+
+  // Popola il livello 8 con tutte le settime (dominante, maggiori, minori)
+  chordDatabase[8].chords = Array.from(
+    new Set([
+      ...chordDatabase[4].chords,  // 7 di dominante
+      ...chordDatabase[6].chords,  // maj7
+      ...chordDatabase[7].chords   // m7
+    ])
   );
 
   // Ordine progressivo dei livelli reali
@@ -424,6 +436,7 @@ const ChordMasterApp = () => {
                     case 4: return 'Solo settime di dominante (6 domande)';
                     case 6: return 'Solo settime maggiori (8 domande)';
                     case 7: return 'Solo settime minori (8 domande)';
+                    case 8: return 'Ripasso settime (7, maj7, m7) (12 domande)';
                     case 9: return 'Solo accordi di sesta (6 domande)';
                     case 10: return 'Solo accordi diminuiti (6 domande)';
                     case 11: return 'Solo accordi aumentati (6 domande)';
