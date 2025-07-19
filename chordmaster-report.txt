@@ -1,0 +1,352 @@
+🎵 CHORDMASTER - TUTTE LE COMBINAZIONI DI DOMANDE
+================================================================================
+
+Generato il: 19/07/2025, 04:30:29
+Livelli totali: 13
+Accordi totali: 232
+
+📚 LIVELLO 1: Solo accordi maggiori
+📊 Domande per round: 8
+🎼 Totale accordi: 14
+--------------------------------------------------------------------------------
+01. C          | Do maggiore                         | Do Mi Sol
+02. C#         | Do diesis maggiore                  | Do# Mi# Sol#
+03. Db         | Re bemolle maggiore                 | Reb Fa Lab
+04. D          | Re maggiore                         | Re Fa# La
+05. Eb         | Mi bemolle maggiore                 | Mib Sol Sib
+06. E          | Mi maggiore                         | Mi Sol# Si
+07. F          | Fa maggiore                         | Fa La Do
+08. F#         | Fa diesis maggiore                  | Fa# La# Do#
+09. Gb         | Sol bemolle maggiore                | Solb Sib Reb
+10. G          | Sol maggiore                        | Sol Si Re
+11. Ab         | La bemolle maggiore                 | Lab Do Mib
+12. A          | La maggiore                         | La Do# Mi
+13. Bb         | Si bemolle maggiore                 | Sib Re Fa
+14. B          | Si maggiore                         | Si Re# Fa#
+
+📚 LIVELLO 2: Solo accordi minori
+📊 Domande per round: 8
+🎼 Totale accordi: 14
+--------------------------------------------------------------------------------
+01. Cm         | Do minore                           | Do Mib Sol
+02. C#m        | Do diesis minore                    | Do# Mi Sol#
+03. Dm         | Re minore                           | Re Fa La
+04. D#m        | Re diesis minore                    | Re# Fa# La#
+05. Ebm        | Mi bemolle minore                   | Mib Solb Sib
+06. Em         | Mi minore                           | Mi Sol Si
+07. Fm         | Fa minore                           | Fa Lab Do
+08. F#m        | Fa diesis minore                    | Fa# La Do#
+09. Gm         | Sol minore                          | Sol Sib Re
+10. G#m        | Sol diesis minore                   | Sol# Si Re#
+11. Am         | La minore                           | La Do Mi
+12. A#m        | La diesis minore                    | La# Do# Mi#
+13. Bbm        | Si bemolle minore                   | Sib Reb Fa
+14. Bm         | Si minore                           | Si Re Fa#
+
+📚 LIVELLO 3: Solo accordi diminuiti
+📊 Domande per round: 8
+🎼 Totale accordi: 15
+--------------------------------------------------------------------------------
+01. C°         | Do diminuito                        | Do Mib Solb
+02. C#°        | Do diesis diminuito                 | Do# Mi Sol
+03. Db°        | Re bemolle diminuito                | Reb Fab Labb
+04. D°         | Re diminuito                        | Re Fa Lab
+05. D#°        | Re diesis diminuito                 | Re# Fa# La
+06. Eb°        | Mi bemolle diminuito                | Mib Solb Sibb
+07. E°         | Mi diminuito                        | Mi Sol Sib
+08. F°         | Fa diminuito                        | Fa Lab Dob
+09. F#°        | Fa diesis diminuito                 | Fa# La Do
+10. G°         | Sol diminuito                       | Sol Sib Reb
+11. G#°        | Sol diesis diminuito                | Sol# Si Re
+12. A°         | La diminuito                        | La Do Mib
+13. A#°        | La diesis diminuito                 | La# Do# Mi
+14. Bb°        | Si bemolle diminuito                | Sib Reb Fab
+15. B°         | Si diminuito                        | Si Re Fa
+
+📚 LIVELLO 4: Solo accordi aumentati
+📊 Domande per round: 8
+🎼 Totale accordi: 14
+--------------------------------------------------------------------------------
+01. C+         | Do aumentato                        | Do Mi Sol#
+02. C#+        | Do diesis aumentato                 | Do# Mi# Sol##
+03. Db+        | Re bemolle aumentato                | Reb Fa La
+04. D+         | Re aumentato                        | Re Fa# La#
+05. Eb+        | Mi bemolle aumentato                | Mib Sol Si
+06. E+         | Mi aumentato                        | Mi Sol# Si#
+07. F+         | Fa aumentato                        | Fa La Do#
+08. F#+        | Fa diesis aumentato                 | Fa# La# Do##
+09. Gb+        | Sol bemolle aumentato               | Solb Sib Re
+10. G+         | Sol aumentato                       | Sol Si Re#
+11. Ab+        | La bemolle aumentato                | Lab Do Mi
+12. A+         | La aumentato                        | La Do# Mi#
+13. Bb+        | Si bemolle aumentato                | Sib Re Fa#
+14. B+         | Si aumentato                        | Si Re# Fa##
+
+📚 LIVELLO 5: Solo settime di dominante
+📊 Domande per round: 8
+🎼 Totale accordi: 14
+--------------------------------------------------------------------------------
+01. C7         | Do settima                          | Do Mi Sol Sib
+02. C#7        | Do diesis settima                   | Do# Mi# Sol# Si
+03. Db7        | Re bemolle settima                  | Reb Fa Lab Dob
+04. D7         | Re settima                          | Re Fa# La Do
+05. Eb7        | Mi bemolle settima                  | Mib Sol Sib Reb
+06. E7         | Mi settima                          | Mi Sol# Si Re
+07. F7         | Fa settima                          | Fa La Do Mib
+08. F#7        | Fa diesis settima                   | Fa# La# Do# Mi
+09. Gb7        | Sol bemolle settima                 | Solb Sib Reb Fab
+10. G7         | Sol settima                         | Sol Si Re Fa
+11. Ab7        | La bemolle settima                  | Lab Do Mib Solb
+12. A7         | La settima                          | La Do# Mi Sol
+13. Bb7        | Si bemolle settima                  | Sib Re Fa Lab
+14. B7         | Si settima                          | Si Re# Fa# La
+
+📚 LIVELLO 6: Solo settime maggiori
+📊 Domande per round: 8
+🎼 Totale accordi: 14
+--------------------------------------------------------------------------------
+01. Cmaj7      | Do settima maggiore                 | Do Mi Sol Si
+02. C#maj7     | Do diesis settima maggiore          | Do# Mi# Sol# Si#
+03. Dbmaj7     | Re bemolle settima maggiore         | Reb Fa Lab Do
+04. Dmaj7      | Re settima maggiore                 | Re Fa# La Do#
+05. Ebmaj7     | Mi bemolle settima maggiore         | Mib Sol Sib Re
+06. Emaj7      | Mi settima maggiore                 | Mi Sol# Si Re#
+07. Fmaj7      | Fa settima maggiore                 | Fa La Do Mi
+08. F#maj7     | Fa diesis settima maggiore          | Fa# La# Do# Mi#
+09. Gbmaj7     | Sol bemolle settima maggiore        | Solb Sib Reb Fa
+10. Gmaj7      | Sol settima maggiore                | Sol Si Re Fa#
+11. Abmaj7     | La bemolle settima maggiore         | Lab Do Mib Sol
+12. Amaj7      | La settima maggiore                 | La Do# Mi Sol#
+13. Bbmaj7     | Si bemolle settima maggiore         | Sib Re Fa La
+14. Bmaj7      | Si settima maggiore                 | Si Re# Fa# La#
+
+📚 LIVELLO 7: Solo settime minori
+📊 Domande per round: 8
+🎼 Totale accordi: 16
+--------------------------------------------------------------------------------
+01. Cm7        | Do minore settima                   | Do Mib Sol Sib
+02. C#m7       | Do diesis minore settima            | Do# Mi Sol# Si
+03. Dbm7       | Re bemolle minore settima           | Reb Fab Lab Dob
+04. Dm7        | Re minore settima                   | Re Fa La Do
+05. D#m7       | Re diesis minore settima            | Re# Fa# La# Do#
+06. Ebm7       | Mi bemolle minore settima           | Mib Solb Sib Reb
+07. Em7        | Mi minore settima                   | Mi Sol Si Re
+08. Fm7        | Fa minore settima                   | Fa Lab Do Mib
+09. F#m7       | Fa diesis minore settima            | Fa# La Do# Mi
+10. Gm7        | Sol minore settima                  | Sol Sib Re Fa
+11. G#m7       | Sol diesis minore settima           | Sol# Si Re# Fa#
+12. Abm7       | La bemolle minore settima           | Lab Dob Mib Solb
+13. Am7        | La minore settima                   | La Do Mi Sol
+14. A#m7       | La diesis minore settima            | La# Do# Mi# Sol#
+15. Bbm7       | Si bemolle minore settima           | Sib Reb Fa Lab
+16. Bm7        | Si minore settima                   | Si Re Fa# La
+
+📚 LIVELLO 8: Solo accordi di sesta
+📊 Domande per round: 8
+🎼 Totale accordi: 14
+--------------------------------------------------------------------------------
+01. C6         | Do maggiore sesta                   | Do Mi Sol La
+02. C#6        | Do diesis maggiore sesta            | Do# Mi# Sol# La#
+03. Db6        | Re bemolle maggiore sesta           | Reb Fa Lab Sib
+04. D6         | Re maggiore sesta                   | Re Fa# La Si
+05. Eb6        | Mi bemolle maggiore sesta           | Mib Sol Sib Do
+06. E6         | Mi maggiore sesta                   | Mi Sol# Si Do#
+07. F6         | Fa maggiore sesta                   | Fa La Do Re
+08. F#6        | Fa diesis maggiore sesta            | Fa# La# Do# Re#
+09. Gb6        | Sol bemolle maggiore sesta          | Solb Sib Reb Mib
+10. G6         | Sol maggiore sesta                  | Sol Si Re Mi
+11. Ab6        | La bemolle maggiore sesta           | Lab Do Mib Fa
+12. A6         | La maggiore sesta                   | La Do# Mi Fa#
+13. Bb6        | Si bemolle maggiore sesta           | Sib Re Fa Sol
+14. B6         | Si maggiore sesta                   | Si Re# Fa# Sol#
+
+📚 LIVELLO 9: Solo inversioni  - tutte le inversioni
+📊 Domande per round: 10
+🎼 Totale accordi: 47
+--------------------------------------------------------------------------------
+01. C/E        | Do maggiore prima inversione        | Mi Sol Do
+02. C/G        | Do maggiore seconda inversione      | Sol Do Mi
+03. C#/E#      | Do diesis maggiore prima inversione | Mi# Sol# Do#
+04. C#/G#      | Do diesis maggiore seconda inversione | Sol# Do# Mi#
+05. Db/F       | Re bemolle maggiore prima inversione | Fa Lab Reb
+06. Db/Ab      | Re bemolle maggiore seconda inversione | Lab Reb Fa
+07. D/F#       | Re maggiore prima inversione        | Fa# La Re
+08. D/A        | Re maggiore seconda inversione      | La Re Fa#
+09. Eb/G       | Mi bemolle maggiore prima inversione | Sol Sib Mib
+10. Eb/Bb      | Mi bemolle maggiore seconda inversione | Sib Mib Sol
+11. E/G#       | Mi maggiore prima inversione        | Sol# Si Mi
+12. E/B        | Mi maggiore seconda inversione      | Si Mi Sol#
+13. F/A        | Fa maggiore prima inversione        | La Do Fa
+14. F/C        | Fa maggiore seconda inversione      | Do Fa La
+15. F#/A#      | Fa diesis maggiore prima inversione | La# Do# Fa#
+16. F#/C#      | Fa diesis maggiore seconda inversione | Do# Fa# La#
+17. Gb/Bb      | Sol bemolle maggiore prima inversione | Sib Reb Solb
+18. Gb/Db      | Sol bemolle maggiore seconda inversione | Reb Solb Sib
+19. G/B        | Sol maggiore prima inversione       | Si Re Sol
+20. G/D        | Sol maggiore seconda inversione     | Re Sol Si
+21. Ab/C       | La bemolle maggiore prima inversione | Do Mib Lab
+22. Ab/Eb      | La bemolle maggiore seconda inversione | Mib Lab Do
+23. A/C#       | La maggiore prima inversione        | Do# Mi La
+24. A/E        | La maggiore seconda inversione      | Mi La Do#
+25. Bb/D       | Si bemolle maggiore prima inversione | Re Fa Sib
+26. Bb/F       | Si bemolle maggiore seconda inversione | Fa Sib Re
+27. B/D#       | Si maggiore prima inversione        | Re# Fa# Si
+28. B/F#       | Si maggiore seconda inversione      | Fa# Si Re#
+29. C7/B       | Do settima terza inversione         | Sib Do Mi Sol
+30. D7/C#      | Re settima terza inversione         | Do Re Fa# La
+31. E7/D#      | Mi settima terza inversione         | Re Mi Sol# Si
+32. F7/E       | Fa settima terza inversione         | Mib Fa La Do
+33. G7/F#      | Sol settima terza inversione        | Fa Sol Si Re
+34. A7/G#      | La settima terza inversione         | Sol La Do# Mi
+35. Bb7/A      | Si bemolle settima terza inversione | Lab Sib Re Fa
+36. B7/A#      | Si settima terza inversione         | La Si Re# Fa#
+37. C9/D       | Do nona quarta inversione           | Re Do Mi Sol Sib
+38. C#9/D#     | Do diesis nona quarta inversione    | Re# Do# Mi# Sol# Si
+39. Db9/Eb     | Re bemolle nona quarta inversione   | Mib Reb Fa Lab Dob
+40. D9/E       | Re nona quarta inversione           | Mi Re Fa# La Do
+41. E9/F#      | Mi nona quarta inversione           | Fa# Mi Sol# Si Re
+42. F9/G       | Fa nona quarta inversione           | Sol Fa La Do Mib
+43. F#9/G#     | Fa diesis nona quarta inversione    | Sol# Fa# La# Do# Mi
+44. Gb9/Ab     | Sol bemolle nona quarta inversione  | Lab Solb Sib Reb Fab
+45. G9/A       | Sol nona quarta inversione          | La Sol Si Re Fa
+46. Bb9/C      | Si bemolle nona quarta inversione   | Do Sib Re Fa Lab
+47. B9/C#      | Si nona quarta inversione           | Do# Si Re# Fa# La
+
+📚 LIVELLO 10: Solo accordi di nona
+📊 Domande per round: 8
+🎼 Totale accordi: 14
+--------------------------------------------------------------------------------
+01. C9         | Do nona                             | Do Mi Sol Sib Re
+02. C#9        | Do diesis nona                      | Do# Mi# Sol# Si Re#
+03. Db9        | Re bemolle nona                     | Reb Fa Lab Dob Mib
+04. D9         | Re nona                             | Re Fa# La Do Mi
+05. Eb9        | Mi bemolle nona                     | Mib Sol Sib Reb Fa
+06. E9         | Mi nona                             | Mi Sol# Si Re Fa#
+07. F9         | Fa nona                             | Fa La Do Mib Sol
+08. F#9        | Fa diesis nona                      | Fa# La# Do# Mi Sol#
+09. Gb9        | Sol bemolle nona                    | Solb Sib Reb Fab Lab
+10. G9         | Sol nona                            | Sol Si Re Fa La
+11. Ab9        | La bemolle nona                     | Lab Do Mib Solb Sib
+12. A9         | La nona                             | La Do# Mi Sol Si
+13. Bb9        | Si bemolle nona                     | Sib Re Fa Lab Do
+14. B9         | Si nona                             | Si Re# Fa# La Do#
+
+📚 LIVELLO 11: Accordi sospesi
+📊 Domande per round: 8
+🎼 Totale accordi: 28
+--------------------------------------------------------------------------------
+01. Csus2      | Do sospeso seconda                  | Do Re Sol
+02. C#sus2     | Do diesis sospeso seconda           | Do# Re# Sol#
+03. Dbsus2     | Re bemolle sospeso seconda          | Reb Mib Lab
+04. Dsus2      | Re sospeso seconda                  | Re Mi La
+05. Ebsus2     | Mi bemolle sospeso seconda          | Mib Fa Sib
+06. Esus2      | Mi sospeso seconda                  | Mi Fa# Si
+07. Fsus2      | Fa sospeso seconda                  | Fa Sol Do
+08. F#sus2     | Fa diesis sospeso seconda           | Fa# Sol# Do#
+09. Gbsus2     | Sol bemolle sospeso seconda         | Solb Lab Reb
+10. Gsus2      | Sol sospeso seconda                 | Sol La Re
+11. Absus2     | La bemolle sospeso seconda          | Lab Sib Mib
+12. Asus2      | La sospeso seconda                  | La Si Mi
+13. Bbsus2     | Si bemolle sospeso seconda          | Sib Do Fa
+14. Bsus2      | Si sospeso seconda                  | Si Do# Fa#
+15. Csus4      | Do sospeso quarta                   | Do Fa Sol
+16. C#sus4     | Do diesis sospeso quarta            | Do# Fa# Sol#
+17. Dbsus4     | Re bemolle sospeso quarta           | Reb Solb Lab
+18. Dsus4      | Re sospeso quarta                   | Re Sol La
+19. Ebsus4     | Mi bemolle sospeso quarta           | Mib Lab Sib
+20. Esus4      | Mi sospeso quarta                   | Mi La Si
+21. Fsus4      | Fa sospeso quarta                   | Fa Sib Do
+22. F#sus4     | Fa diesis sospeso quarta            | Fa# Si Do#
+23. Gbsus4     | Sol bemolle sospeso quarta          | Solb Dob Reb
+24. Gsus4      | Sol sospeso quarta                  | Sol Do Re
+25. Absus4     | La bemolle sospeso quarta           | Lab Reb Mib
+26. Asus4      | La sospeso quarta                   | La Re Mi
+27. Bbsus4     | Si bemolle sospeso quarta           | Sib Mib Fa
+28. Bsus4      | Si sospeso quarta                   | Si Mi Fa#
+
+📚 LIVELLO 12: Accordi con note aggiunte
+📊 Domande per round: 8
+🎼 Totale accordi: 28
+--------------------------------------------------------------------------------
+01. Cadd2      | Do aggiunta seconda                 | Do Re Mi Sol
+02. C#add2     | Do diesis aggiunta seconda          | Do# Re# Mi# Sol#
+03. Dbadd2     | Re bemolle aggiunta seconda         | Reb Mib Fa Lab
+04. Dadd2      | Re aggiunta seconda                 | Re Mi Fa# La
+05. Ebadd2     | Mi bemolle aggiunta seconda         | Mib Fa Sol Sib
+06. Eadd2      | Mi aggiunta seconda                 | Mi Fa# Sol# Si
+07. Fadd2      | Fa aggiunta seconda                 | Fa Sol La Do
+08. F#add2     | Fa diesis aggiunta seconda          | Fa# Sol# La# Do#
+09. Gbadd2     | Sol bemolle aggiunta seconda        | Solb Lab Sib Reb
+10. Gadd2      | Sol aggiunta seconda                | Sol La Si Re
+11. Abadd2     | La bemolle aggiunta seconda         | Lab Sib Do Mib
+12. Aadd2      | La aggiunta seconda                 | La Si Do# Mi
+13. Bbadd2     | Si bemolle aggiunta seconda         | Sib Do Re Fa
+14. Badd2      | Si aggiunta seconda                 | Si Do# Re# Fa#
+15. Cadd9      | Do aggiunta nona                    | Do Mi Sol Re
+16. C#add9     | Do diesis aggiunta nona             | Do# Mi# Sol# Re#
+17. Dbadd9     | Re bemolle aggiunta nona            | Reb Fa Lab Mib
+18. Dadd9      | Re aggiunta nona                    | Re Fa# La Mi
+19. Ebadd9     | Mi bemolle aggiunta nona            | Mib Sol Sib Fa
+20. Eadd9      | Mi aggiunta nona                    | Mi Sol# Si Fa#
+21. Fadd9      | Fa aggiunta nona                    | Fa La Do Sol
+22. F#add9     | Fa diesis aggiunta nona             | Fa# La# Do# Sol#
+23. Gbadd9     | Sol bemolle aggiunta nona           | Solb Sib Reb Lab
+24. Gadd9      | Sol aggiunta nona                   | Sol Si Re La
+25. Abadd9     | La bemolle aggiunta nona            | Lab Do Mib Sib
+26. Aadd9      | La aggiunta nona                    | La Do# Mi Si
+27. Bbadd9     | Si bemolle aggiunta nona            | Sib Re Fa Do
+28. Badd9      | Si aggiunta nona                    | Si Re# Fa# Do#
+
+📚 LIVELLO 13: Mix di tutto
+📊 Domande per round: 10
+🎼 Totale accordi: 0
+--------------------------------------------------------------------------------
+
+🎹 ANALISI PER CATEGORIA DI TASTI:
+--------------------------------------------------
+
+🔍 FILTRO: BIANCHI
+Livello  1:  7/14 accordi (50%)
+Livello  2:  7/14 accordi (50%)
+Livello  3:  7/15 accordi (47%)
+Livello  4:  7/14 accordi (50%)
+Livello  5:  7/14 accordi (50%)
+Livello  6:  7/14 accordi (50%)
+Livello  7:  7/16 accordi (44%)
+Livello  8:  7/14 accordi (50%)
+Livello  9: 15/47 accordi (32%)
+Livello 10:  7/14 accordi (50%)
+Livello 11: 14/28 accordi (50%)
+Livello 12: 14/28 accordi (50%)
+Livello 13:  0/ 0 accordi (NaN%)
+
+🔍 FILTRO: NERI
+Livello  1:  7/14 accordi (50%)
+Livello  2:  7/14 accordi (50%)
+Livello  3:  8/15 accordi (53%)
+Livello  4:  7/14 accordi (50%)
+Livello  5:  7/14 accordi (50%)
+Livello  6:  7/14 accordi (50%)
+Livello  7:  9/16 accordi (56%)
+Livello  8:  7/14 accordi (50%)
+Livello  9: 20/47 accordi (43%)
+Livello 10:  7/14 accordi (50%)
+Livello 11: 14/28 accordi (50%)
+Livello 12: 14/28 accordi (50%)
+Livello 13:  0/ 0 accordi (NaN%)
+
+🔍 FILTRO: ENTRAMBI
+Livello  1: 14/14 accordi (100%)
+Livello  2: 14/14 accordi (100%)
+Livello  3: 15/15 accordi (100%)
+Livello  4: 14/14 accordi (100%)
+Livello  5: 14/14 accordi (100%)
+Livello  6: 14/14 accordi (100%)
+Livello  7: 16/16 accordi (100%)
+Livello  8: 14/14 accordi (100%)
+Livello  9: 47/47 accordi (100%)
+Livello 10: 14/14 accordi (100%)
+Livello 11: 28/28 accordi (100%)
+Livello 12: 28/28 accordi (100%)
+Livello 13:  0/ 0 accordi (NaN%)
+

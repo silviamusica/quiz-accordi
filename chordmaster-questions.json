@@ -1,0 +1,1479 @@
+{
+  "metadata": {
+    "generatedAt": "2025-07-19T02:30:29.360Z",
+    "generatedBy": "ChordMaster Questions Extractor",
+    "totalLevels": 13,
+    "totalChords": 232
+  },
+  "levels": {
+    "1": {
+      "description": "Solo accordi maggiori",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Mi Sol",
+          "name": "Do maggiore",
+          "symbol": "C",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Do# Mi# Sol#",
+          "name": "Do diesis maggiore",
+          "symbol": "C#",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Reb Fa Lab",
+          "name": "Re bemolle maggiore",
+          "symbol": "Db",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Re Fa# La",
+          "name": "Re maggiore",
+          "symbol": "D",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Mib Sol Sib",
+          "name": "Mi bemolle maggiore",
+          "symbol": "Eb",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Mi Sol# Si",
+          "name": "Mi maggiore",
+          "symbol": "E",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Fa La Do",
+          "name": "Fa maggiore",
+          "symbol": "F",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Fa# La# Do#",
+          "name": "Fa diesis maggiore",
+          "symbol": "F#",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Solb Sib Reb",
+          "name": "Sol bemolle maggiore",
+          "symbol": "Gb",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Sol Si Re",
+          "name": "Sol maggiore",
+          "symbol": "G",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Lab Do Mib",
+          "name": "La bemolle maggiore",
+          "symbol": "Ab",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "La Do# Mi",
+          "name": "La maggiore",
+          "symbol": "A",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Sib Re Fa",
+          "name": "Si bemolle maggiore",
+          "symbol": "Bb",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        },
+        {
+          "notes": "Si Re# Fa#",
+          "name": "Si maggiore",
+          "symbol": "B",
+          "explanation": "Triade maggiore: fondamentale + terza maggiore + quinta giusta"
+        }
+      ]
+    },
+    "2": {
+      "description": "Solo accordi minori",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Mib Sol",
+          "name": "Do minore",
+          "symbol": "Cm",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Do# Mi Sol#",
+          "name": "Do diesis minore",
+          "symbol": "C#m",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Re Fa La",
+          "name": "Re minore",
+          "symbol": "Dm",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Re# Fa# La#",
+          "name": "Re diesis minore",
+          "symbol": "D#m",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Mib Solb Sib",
+          "name": "Mi bemolle minore",
+          "symbol": "Ebm",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Mi Sol Si",
+          "name": "Mi minore",
+          "symbol": "Em",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Fa Lab Do",
+          "name": "Fa minore",
+          "symbol": "Fm",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Fa# La Do#",
+          "name": "Fa diesis minore",
+          "symbol": "F#m",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Sol Sib Re",
+          "name": "Sol minore",
+          "symbol": "Gm",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Sol# Si Re#",
+          "name": "Sol diesis minore",
+          "symbol": "G#m",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "La Do Mi",
+          "name": "La minore",
+          "symbol": "Am",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "La# Do# Mi#",
+          "name": "La diesis minore",
+          "symbol": "A#m",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Sib Reb Fa",
+          "name": "Si bemolle minore",
+          "symbol": "Bbm",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        },
+        {
+          "notes": "Si Re Fa#",
+          "name": "Si minore",
+          "symbol": "Bm",
+          "explanation": "Triade minore: fondamentale + terza minore + quinta giusta"
+        }
+      ]
+    },
+    "3": {
+      "description": "Solo accordi diminuiti",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Mib Solb",
+          "name": "Do diminuito",
+          "symbol": "C°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Do# Mi Sol",
+          "name": "Do diesis diminuito",
+          "symbol": "C#°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Reb Fab Labb",
+          "name": "Re bemolle diminuito",
+          "symbol": "Db°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Re Fa Lab",
+          "name": "Re diminuito",
+          "symbol": "D°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Re# Fa# La",
+          "name": "Re diesis diminuito",
+          "symbol": "D#°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Mib Solb Sibb",
+          "name": "Mi bemolle diminuito",
+          "symbol": "Eb°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Mi Sol Sib",
+          "name": "Mi diminuito",
+          "symbol": "E°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Fa Lab Dob",
+          "name": "Fa diminuito",
+          "symbol": "F°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Fa# La Do",
+          "name": "Fa diesis diminuito",
+          "symbol": "F#°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Sol Sib Reb",
+          "name": "Sol diminuito",
+          "symbol": "G°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Sol# Si Re",
+          "name": "Sol diesis diminuito",
+          "symbol": "G#°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "La Do Mib",
+          "name": "La diminuito",
+          "symbol": "A°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "La# Do# Mi",
+          "name": "La diesis diminuito",
+          "symbol": "A#°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Sib Reb Fab",
+          "name": "Si bemolle diminuito",
+          "symbol": "Bb°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        },
+        {
+          "notes": "Si Re Fa",
+          "name": "Si diminuito",
+          "symbol": "B°",
+          "explanation": "Triade diminuita: fondamentale + terza minore + quinta diminuita"
+        }
+      ]
+    },
+    "4": {
+      "description": "Solo accordi aumentati",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Mi Sol#",
+          "name": "Do aumentato",
+          "symbol": "C+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Do# Mi# Sol##",
+          "name": "Do diesis aumentato",
+          "symbol": "C#+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Reb Fa La",
+          "name": "Re bemolle aumentato",
+          "symbol": "Db+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Re Fa# La#",
+          "name": "Re aumentato",
+          "symbol": "D+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Mib Sol Si",
+          "name": "Mi bemolle aumentato",
+          "symbol": "Eb+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Mi Sol# Si#",
+          "name": "Mi aumentato",
+          "symbol": "E+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Fa La Do#",
+          "name": "Fa aumentato",
+          "symbol": "F+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Fa# La# Do##",
+          "name": "Fa diesis aumentato",
+          "symbol": "F#+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Solb Sib Re",
+          "name": "Sol bemolle aumentato",
+          "symbol": "Gb+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Sol Si Re#",
+          "name": "Sol aumentato",
+          "symbol": "G+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Lab Do Mi",
+          "name": "La bemolle aumentato",
+          "symbol": "Ab+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "La Do# Mi#",
+          "name": "La aumentato",
+          "symbol": "A+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Sib Re Fa#",
+          "name": "Si bemolle aumentato",
+          "symbol": "Bb+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        },
+        {
+          "notes": "Si Re# Fa##",
+          "name": "Si aumentato",
+          "symbol": "B+",
+          "explanation": "Triade aumentata: fondamentale + terza maggiore + quinta aumentata"
+        }
+      ]
+    },
+    "5": {
+      "description": "Solo settime di dominante",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Mi Sol Sib",
+          "name": "Do settima",
+          "symbol": "C7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Do# Mi# Sol# Si",
+          "name": "Do diesis settima",
+          "symbol": "C#7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Reb Fa Lab Dob",
+          "name": "Re bemolle settima",
+          "symbol": "Db7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Re Fa# La Do",
+          "name": "Re settima",
+          "symbol": "D7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Mib Sol Sib Reb",
+          "name": "Mi bemolle settima",
+          "symbol": "Eb7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Mi Sol# Si Re",
+          "name": "Mi settima",
+          "symbol": "E7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Fa La Do Mib",
+          "name": "Fa settima",
+          "symbol": "F7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Fa# La# Do# Mi",
+          "name": "Fa diesis settima",
+          "symbol": "F#7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Solb Sib Reb Fab",
+          "name": "Sol bemolle settima",
+          "symbol": "Gb7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Sol Si Re Fa",
+          "name": "Sol settima",
+          "symbol": "G7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Lab Do Mib Solb",
+          "name": "La bemolle settima",
+          "symbol": "Ab7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "La Do# Mi Sol",
+          "name": "La settima",
+          "symbol": "A7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Sib Re Fa Lab",
+          "name": "Si bemolle settima",
+          "symbol": "Bb7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        },
+        {
+          "notes": "Si Re# Fa# La",
+          "name": "Si settima",
+          "symbol": "B7",
+          "explanation": "Accordo di settima di dominante: triade maggiore + settima minore"
+        }
+      ]
+    },
+    "6": {
+      "description": "Solo settime maggiori",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Mi Sol Si",
+          "name": "Do settima maggiore",
+          "symbol": "Cmaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Do# Mi# Sol# Si#",
+          "name": "Do diesis settima maggiore",
+          "symbol": "C#maj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Reb Fa Lab Do",
+          "name": "Re bemolle settima maggiore",
+          "symbol": "Dbmaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Re Fa# La Do#",
+          "name": "Re settima maggiore",
+          "symbol": "Dmaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Mib Sol Sib Re",
+          "name": "Mi bemolle settima maggiore",
+          "symbol": "Ebmaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Mi Sol# Si Re#",
+          "name": "Mi settima maggiore",
+          "symbol": "Emaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Fa La Do Mi",
+          "name": "Fa settima maggiore",
+          "symbol": "Fmaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Fa# La# Do# Mi#",
+          "name": "Fa diesis settima maggiore",
+          "symbol": "F#maj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Solb Sib Reb Fa",
+          "name": "Sol bemolle settima maggiore",
+          "symbol": "Gbmaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Sol Si Re Fa#",
+          "name": "Sol settima maggiore",
+          "symbol": "Gmaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Lab Do Mib Sol",
+          "name": "La bemolle settima maggiore",
+          "symbol": "Abmaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "La Do# Mi Sol#",
+          "name": "La settima maggiore",
+          "symbol": "Amaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Sib Re Fa La",
+          "name": "Si bemolle settima maggiore",
+          "symbol": "Bbmaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        },
+        {
+          "notes": "Si Re# Fa# La#",
+          "name": "Si settima maggiore",
+          "symbol": "Bmaj7",
+          "explanation": "Settima maggiore: triade maggiore + settima maggiore"
+        }
+      ]
+    },
+    "7": {
+      "description": "Solo settime minori",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Mib Sol Sib",
+          "name": "Do minore settima",
+          "symbol": "Cm7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Do# Mi Sol# Si",
+          "name": "Do diesis minore settima",
+          "symbol": "C#m7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Reb Fab Lab Dob",
+          "name": "Re bemolle minore settima",
+          "symbol": "Dbm7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Re Fa La Do",
+          "name": "Re minore settima",
+          "symbol": "Dm7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Re# Fa# La# Do#",
+          "name": "Re diesis minore settima",
+          "symbol": "D#m7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Mib Solb Sib Reb",
+          "name": "Mi bemolle minore settima",
+          "symbol": "Ebm7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Mi Sol Si Re",
+          "name": "Mi minore settima",
+          "symbol": "Em7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Fa Lab Do Mib",
+          "name": "Fa minore settima",
+          "symbol": "Fm7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Fa# La Do# Mi",
+          "name": "Fa diesis minore settima",
+          "symbol": "F#m7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Sol Sib Re Fa",
+          "name": "Sol minore settima",
+          "symbol": "Gm7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Sol# Si Re# Fa#",
+          "name": "Sol diesis minore settima",
+          "symbol": "G#m7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Lab Dob Mib Solb",
+          "name": "La bemolle minore settima",
+          "symbol": "Abm7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "La Do Mi Sol",
+          "name": "La minore settima",
+          "symbol": "Am7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "La# Do# Mi# Sol#",
+          "name": "La diesis minore settima",
+          "symbol": "A#m7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Sib Reb Fa Lab",
+          "name": "Si bemolle minore settima",
+          "symbol": "Bbm7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        },
+        {
+          "notes": "Si Re Fa# La",
+          "name": "Si minore settima",
+          "symbol": "Bm7",
+          "explanation": "Settima minore: triade minore + settima minore"
+        }
+      ]
+    },
+    "8": {
+      "description": "Solo accordi di sesta",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Mi Sol La",
+          "name": "Do maggiore sesta",
+          "symbol": "C6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Do# Mi# Sol# La#",
+          "name": "Do diesis maggiore sesta",
+          "symbol": "C#6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Reb Fa Lab Sib",
+          "name": "Re bemolle maggiore sesta",
+          "symbol": "Db6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Re Fa# La Si",
+          "name": "Re maggiore sesta",
+          "symbol": "D6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Mib Sol Sib Do",
+          "name": "Mi bemolle maggiore sesta",
+          "symbol": "Eb6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Mi Sol# Si Do#",
+          "name": "Mi maggiore sesta",
+          "symbol": "E6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Fa La Do Re",
+          "name": "Fa maggiore sesta",
+          "symbol": "F6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Fa# La# Do# Re#",
+          "name": "Fa diesis maggiore sesta",
+          "symbol": "F#6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Solb Sib Reb Mib",
+          "name": "Sol bemolle maggiore sesta",
+          "symbol": "Gb6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Sol Si Re Mi",
+          "name": "Sol maggiore sesta",
+          "symbol": "G6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Lab Do Mib Fa",
+          "name": "La bemolle maggiore sesta",
+          "symbol": "Ab6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "La Do# Mi Fa#",
+          "name": "La maggiore sesta",
+          "symbol": "A6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Sib Re Fa Sol",
+          "name": "Si bemolle maggiore sesta",
+          "symbol": "Bb6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        },
+        {
+          "notes": "Si Re# Fa# Sol#",
+          "name": "Si maggiore sesta",
+          "symbol": "B6",
+          "explanation": "Accordo di sesta maggiore: triade maggiore + sesta maggiore"
+        }
+      ]
+    },
+    "9": {
+      "description": "Solo inversioni  - tutte le inversioni",
+      "questionsPerRound": 10,
+      "chords": [
+        {
+          "notes": "Mi Sol Do",
+          "name": "Do maggiore prima inversione",
+          "symbol": "C/E",
+          "explanation": "Prima inversione: la terza (Mi) al basso"
+        },
+        {
+          "notes": "Sol Do Mi",
+          "name": "Do maggiore seconda inversione",
+          "symbol": "C/G",
+          "explanation": "Seconda inversione: la quinta (Sol) al basso"
+        },
+        {
+          "notes": "Mi# Sol# Do#",
+          "name": "Do diesis maggiore prima inversione",
+          "symbol": "C#/E#",
+          "explanation": "Prima inversione: la terza (Mi#) al basso"
+        },
+        {
+          "notes": "Sol# Do# Mi#",
+          "name": "Do diesis maggiore seconda inversione",
+          "symbol": "C#/G#",
+          "explanation": "Seconda inversione: la quinta (Sol#) al basso"
+        },
+        {
+          "notes": "Fa Lab Reb",
+          "name": "Re bemolle maggiore prima inversione",
+          "symbol": "Db/F",
+          "explanation": "Prima inversione: la terza (Fa) al basso"
+        },
+        {
+          "notes": "Lab Reb Fa",
+          "name": "Re bemolle maggiore seconda inversione",
+          "symbol": "Db/Ab",
+          "explanation": "Seconda inversione: la quinta (Lab) al basso"
+        },
+        {
+          "notes": "Fa# La Re",
+          "name": "Re maggiore prima inversione",
+          "symbol": "D/F#",
+          "explanation": "Prima inversione: la terza (Fa#) al basso"
+        },
+        {
+          "notes": "La Re Fa#",
+          "name": "Re maggiore seconda inversione",
+          "symbol": "D/A",
+          "explanation": "Seconda inversione: la quinta (La) al basso"
+        },
+        {
+          "notes": "Sol Sib Mib",
+          "name": "Mi bemolle maggiore prima inversione",
+          "symbol": "Eb/G",
+          "explanation": "Prima inversione: la terza (Sol) al basso"
+        },
+        {
+          "notes": "Sib Mib Sol",
+          "name": "Mi bemolle maggiore seconda inversione",
+          "symbol": "Eb/Bb",
+          "explanation": "Seconda inversione: la quinta (Sib) al basso"
+        },
+        {
+          "notes": "Sol# Si Mi",
+          "name": "Mi maggiore prima inversione",
+          "symbol": "E/G#",
+          "explanation": "Prima inversione: la terza (Sol#) al basso"
+        },
+        {
+          "notes": "Si Mi Sol#",
+          "name": "Mi maggiore seconda inversione",
+          "symbol": "E/B",
+          "explanation": "Seconda inversione: la quinta (Si) al basso"
+        },
+        {
+          "notes": "La Do Fa",
+          "name": "Fa maggiore prima inversione",
+          "symbol": "F/A",
+          "explanation": "Prima inversione: la terza (La) al basso"
+        },
+        {
+          "notes": "Do Fa La",
+          "name": "Fa maggiore seconda inversione",
+          "symbol": "F/C",
+          "explanation": "Seconda inversione: la quinta (Do) al basso"
+        },
+        {
+          "notes": "La# Do# Fa#",
+          "name": "Fa diesis maggiore prima inversione",
+          "symbol": "F#/A#",
+          "explanation": "Prima inversione: la terza (La#) al basso"
+        },
+        {
+          "notes": "Do# Fa# La#",
+          "name": "Fa diesis maggiore seconda inversione",
+          "symbol": "F#/C#",
+          "explanation": "Seconda inversione: la quinta (Do#) al basso"
+        },
+        {
+          "notes": "Sib Reb Solb",
+          "name": "Sol bemolle maggiore prima inversione",
+          "symbol": "Gb/Bb",
+          "explanation": "Prima inversione: la terza (Sib) al basso"
+        },
+        {
+          "notes": "Reb Solb Sib",
+          "name": "Sol bemolle maggiore seconda inversione",
+          "symbol": "Gb/Db",
+          "explanation": "Seconda inversione: la quinta (Reb) al basso"
+        },
+        {
+          "notes": "Si Re Sol",
+          "name": "Sol maggiore prima inversione",
+          "symbol": "G/B",
+          "explanation": "Prima inversione: la terza (Si) al basso"
+        },
+        {
+          "notes": "Re Sol Si",
+          "name": "Sol maggiore seconda inversione",
+          "symbol": "G/D",
+          "explanation": "Seconda inversione: la quinta (Re) al basso"
+        },
+        {
+          "notes": "Do Mib Lab",
+          "name": "La bemolle maggiore prima inversione",
+          "symbol": "Ab/C",
+          "explanation": "Prima inversione: la terza (Do) al basso"
+        },
+        {
+          "notes": "Mib Lab Do",
+          "name": "La bemolle maggiore seconda inversione",
+          "symbol": "Ab/Eb",
+          "explanation": "Seconda inversione: la quinta (Mib) al basso"
+        },
+        {
+          "notes": "Do# Mi La",
+          "name": "La maggiore prima inversione",
+          "symbol": "A/C#",
+          "explanation": "Prima inversione: la terza (Do#) al basso"
+        },
+        {
+          "notes": "Mi La Do#",
+          "name": "La maggiore seconda inversione",
+          "symbol": "A/E",
+          "explanation": "Seconda inversione: la quinta (Mi) al basso"
+        },
+        {
+          "notes": "Re Fa Sib",
+          "name": "Si bemolle maggiore prima inversione",
+          "symbol": "Bb/D",
+          "explanation": "Prima inversione: la terza (Re) al basso"
+        },
+        {
+          "notes": "Fa Sib Re",
+          "name": "Si bemolle maggiore seconda inversione",
+          "symbol": "Bb/F",
+          "explanation": "Seconda inversione: la quinta (Fa) al basso"
+        },
+        {
+          "notes": "Re# Fa# Si",
+          "name": "Si maggiore prima inversione",
+          "symbol": "B/D#",
+          "explanation": "Prima inversione: la terza (Re#) al basso"
+        },
+        {
+          "notes": "Fa# Si Re#",
+          "name": "Si maggiore seconda inversione",
+          "symbol": "B/F#",
+          "explanation": "Seconda inversione: la quinta (Fa#) al basso"
+        },
+        {
+          "notes": "Sib Do Mi Sol",
+          "name": "Do settima terza inversione",
+          "symbol": "C7/B",
+          "explanation": "Terza inversione: la settima (Sib) al basso"
+        },
+        {
+          "notes": "Do Re Fa# La",
+          "name": "Re settima terza inversione",
+          "symbol": "D7/C#",
+          "explanation": "Terza inversione: la settima (Do) al basso"
+        },
+        {
+          "notes": "Re Mi Sol# Si",
+          "name": "Mi settima terza inversione",
+          "symbol": "E7/D#",
+          "explanation": "Terza inversione: la settima (Re) al basso"
+        },
+        {
+          "notes": "Mib Fa La Do",
+          "name": "Fa settima terza inversione",
+          "symbol": "F7/E",
+          "explanation": "Terza inversione: la settima (Mib) al basso"
+        },
+        {
+          "notes": "Fa Sol Si Re",
+          "name": "Sol settima terza inversione",
+          "symbol": "G7/F#",
+          "explanation": "Terza inversione: la settima (Fa) al basso"
+        },
+        {
+          "notes": "Sol La Do# Mi",
+          "name": "La settima terza inversione",
+          "symbol": "A7/G#",
+          "explanation": "Terza inversione: la settima (Sol) al basso"
+        },
+        {
+          "notes": "Lab Sib Re Fa",
+          "name": "Si bemolle settima terza inversione",
+          "symbol": "Bb7/A",
+          "explanation": "Terza inversione: la settima (Lab) al basso"
+        },
+        {
+          "notes": "La Si Re# Fa#",
+          "name": "Si settima terza inversione",
+          "symbol": "B7/A#",
+          "explanation": "Terza inversione: la settima (La) al basso"
+        },
+        {
+          "notes": "Re Do Mi Sol Sib",
+          "name": "Do nona quarta inversione",
+          "symbol": "C9/D",
+          "explanation": "Quarta inversione: la nona (Re) al basso"
+        },
+        {
+          "notes": "Re# Do# Mi# Sol# Si",
+          "name": "Do diesis nona quarta inversione",
+          "symbol": "C#9/D#",
+          "explanation": "Quarta inversione: la nona (Re#) al basso"
+        },
+        {
+          "notes": "Mib Reb Fa Lab Dob",
+          "name": "Re bemolle nona quarta inversione",
+          "symbol": "Db9/Eb",
+          "explanation": "Quarta inversione: la nona (Mib) al basso"
+        },
+        {
+          "notes": "Mi Re Fa# La Do",
+          "name": "Re nona quarta inversione",
+          "symbol": "D9/E",
+          "explanation": "Quarta inversione: la nona (Mi) al basso"
+        },
+        {
+          "notes": "Fa# Mi Sol# Si Re",
+          "name": "Mi nona quarta inversione",
+          "symbol": "E9/F#",
+          "explanation": "Quarta inversione: la nona (Fa#) al basso"
+        },
+        {
+          "notes": "Sol Fa La Do Mib",
+          "name": "Fa nona quarta inversione",
+          "symbol": "F9/G",
+          "explanation": "Quarta inversione: la nona (Sol) al basso"
+        },
+        {
+          "notes": "Sol# Fa# La# Do# Mi",
+          "name": "Fa diesis nona quarta inversione",
+          "symbol": "F#9/G#",
+          "explanation": "Quarta inversione: la nona (Sol#) al basso"
+        },
+        {
+          "notes": "Lab Solb Sib Reb Fab",
+          "name": "Sol bemolle nona quarta inversione",
+          "symbol": "Gb9/Ab",
+          "explanation": "Quarta inversione: la nona (Lab) al basso"
+        },
+        {
+          "notes": "La Sol Si Re Fa",
+          "name": "Sol nona quarta inversione",
+          "symbol": "G9/A",
+          "explanation": "Quarta inversione: la nona (La) al basso"
+        },
+        {
+          "notes": "Do Sib Re Fa Lab",
+          "name": "Si bemolle nona quarta inversione",
+          "symbol": "Bb9/C",
+          "explanation": "Quarta inversione: la nona (Do) al basso"
+        },
+        {
+          "notes": "Do# Si Re# Fa# La",
+          "name": "Si nona quarta inversione",
+          "symbol": "B9/C#",
+          "explanation": "Quarta inversione: la nona (Do#) al basso"
+        }
+      ]
+    },
+    "10": {
+      "description": "Solo accordi di nona",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Mi Sol Sib Re",
+          "name": "Do nona",
+          "symbol": "C9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Do# Mi# Sol# Si Re#",
+          "name": "Do diesis nona",
+          "symbol": "C#9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Reb Fa Lab Dob Mib",
+          "name": "Re bemolle nona",
+          "symbol": "Db9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Re Fa# La Do Mi",
+          "name": "Re nona",
+          "symbol": "D9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Mib Sol Sib Reb Fa",
+          "name": "Mi bemolle nona",
+          "symbol": "Eb9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Mi Sol# Si Re Fa#",
+          "name": "Mi nona",
+          "symbol": "E9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Fa La Do Mib Sol",
+          "name": "Fa nona",
+          "symbol": "F9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Fa# La# Do# Mi Sol#",
+          "name": "Fa diesis nona",
+          "symbol": "F#9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Solb Sib Reb Fab Lab",
+          "name": "Sol bemolle nona",
+          "symbol": "Gb9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Sol Si Re Fa La",
+          "name": "Sol nona",
+          "symbol": "G9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Lab Do Mib Solb Sib",
+          "name": "La bemolle nona",
+          "symbol": "Ab9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "La Do# Mi Sol Si",
+          "name": "La nona",
+          "symbol": "A9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Sib Re Fa Lab Do",
+          "name": "Si bemolle nona",
+          "symbol": "Bb9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        },
+        {
+          "notes": "Si Re# Fa# La Do#",
+          "name": "Si nona",
+          "symbol": "B9",
+          "explanation": "Accordo di nona: settima di dominante + nona maggiore"
+        }
+      ]
+    },
+    "11": {
+      "description": "Accordi sospesi",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Re Sol",
+          "name": "Do sospeso seconda",
+          "symbol": "Csus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Do# Re# Sol#",
+          "name": "Do diesis sospeso seconda",
+          "symbol": "C#sus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Reb Mib Lab",
+          "name": "Re bemolle sospeso seconda",
+          "symbol": "Dbsus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Re Mi La",
+          "name": "Re sospeso seconda",
+          "symbol": "Dsus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Mib Fa Sib",
+          "name": "Mi bemolle sospeso seconda",
+          "symbol": "Ebsus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Mi Fa# Si",
+          "name": "Mi sospeso seconda",
+          "symbol": "Esus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Fa Sol Do",
+          "name": "Fa sospeso seconda",
+          "symbol": "Fsus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Fa# Sol# Do#",
+          "name": "Fa diesis sospeso seconda",
+          "symbol": "F#sus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Solb Lab Reb",
+          "name": "Sol bemolle sospeso seconda",
+          "symbol": "Gbsus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Sol La Re",
+          "name": "Sol sospeso seconda",
+          "symbol": "Gsus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Lab Sib Mib",
+          "name": "La bemolle sospeso seconda",
+          "symbol": "Absus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "La Si Mi",
+          "name": "La sospeso seconda",
+          "symbol": "Asus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Sib Do Fa",
+          "name": "Si bemolle sospeso seconda",
+          "symbol": "Bbsus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Si Do# Fa#",
+          "name": "Si sospeso seconda",
+          "symbol": "Bsus2",
+          "explanation": "Accordo sospeso: seconda al posto della terza"
+        },
+        {
+          "notes": "Do Fa Sol",
+          "name": "Do sospeso quarta",
+          "symbol": "Csus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Do# Fa# Sol#",
+          "name": "Do diesis sospeso quarta",
+          "symbol": "C#sus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Reb Solb Lab",
+          "name": "Re bemolle sospeso quarta",
+          "symbol": "Dbsus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Re Sol La",
+          "name": "Re sospeso quarta",
+          "symbol": "Dsus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Mib Lab Sib",
+          "name": "Mi bemolle sospeso quarta",
+          "symbol": "Ebsus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Mi La Si",
+          "name": "Mi sospeso quarta",
+          "symbol": "Esus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Fa Sib Do",
+          "name": "Fa sospeso quarta",
+          "symbol": "Fsus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Fa# Si Do#",
+          "name": "Fa diesis sospeso quarta",
+          "symbol": "F#sus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Solb Dob Reb",
+          "name": "Sol bemolle sospeso quarta",
+          "symbol": "Gbsus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Sol Do Re",
+          "name": "Sol sospeso quarta",
+          "symbol": "Gsus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Lab Reb Mib",
+          "name": "La bemolle sospeso quarta",
+          "symbol": "Absus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "La Re Mi",
+          "name": "La sospeso quarta",
+          "symbol": "Asus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Sib Mib Fa",
+          "name": "Si bemolle sospeso quarta",
+          "symbol": "Bbsus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        },
+        {
+          "notes": "Si Mi Fa#",
+          "name": "Si sospeso quarta",
+          "symbol": "Bsus4",
+          "explanation": "Accordo sospeso: quarta al posto della terza"
+        }
+      ]
+    },
+    "12": {
+      "description": "Accordi con note aggiunte",
+      "questionsPerRound": 8,
+      "chords": [
+        {
+          "notes": "Do Re Mi Sol",
+          "name": "Do aggiunta seconda",
+          "symbol": "Cadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Do# Re# Mi# Sol#",
+          "name": "Do diesis aggiunta seconda",
+          "symbol": "C#add2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Reb Mib Fa Lab",
+          "name": "Re bemolle aggiunta seconda",
+          "symbol": "Dbadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Re Mi Fa# La",
+          "name": "Re aggiunta seconda",
+          "symbol": "Dadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Mib Fa Sol Sib",
+          "name": "Mi bemolle aggiunta seconda",
+          "symbol": "Ebadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Mi Fa# Sol# Si",
+          "name": "Mi aggiunta seconda",
+          "symbol": "Eadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Fa Sol La Do",
+          "name": "Fa aggiunta seconda",
+          "symbol": "Fadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Fa# Sol# La# Do#",
+          "name": "Fa diesis aggiunta seconda",
+          "symbol": "F#add2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Solb Lab Sib Reb",
+          "name": "Sol bemolle aggiunta seconda",
+          "symbol": "Gbadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Sol La Si Re",
+          "name": "Sol aggiunta seconda",
+          "symbol": "Gadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Lab Sib Do Mib",
+          "name": "La bemolle aggiunta seconda",
+          "symbol": "Abadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "La Si Do# Mi",
+          "name": "La aggiunta seconda",
+          "symbol": "Aadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Sib Do Re Fa",
+          "name": "Si bemolle aggiunta seconda",
+          "symbol": "Bbadd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Si Do# Re# Fa#",
+          "name": "Si aggiunta seconda",
+          "symbol": "Badd2",
+          "explanation": "Triade maggiore con seconda aggiunta"
+        },
+        {
+          "notes": "Do Mi Sol Re",
+          "name": "Do aggiunta nona",
+          "symbol": "Cadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Do# Mi# Sol# Re#",
+          "name": "Do diesis aggiunta nona",
+          "symbol": "C#add9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Reb Fa Lab Mib",
+          "name": "Re bemolle aggiunta nona",
+          "symbol": "Dbadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Re Fa# La Mi",
+          "name": "Re aggiunta nona",
+          "symbol": "Dadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Mib Sol Sib Fa",
+          "name": "Mi bemolle aggiunta nona",
+          "symbol": "Ebadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Mi Sol# Si Fa#",
+          "name": "Mi aggiunta nona",
+          "symbol": "Eadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Fa La Do Sol",
+          "name": "Fa aggiunta nona",
+          "symbol": "Fadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Fa# La# Do# Sol#",
+          "name": "Fa diesis aggiunta nona",
+          "symbol": "F#add9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Solb Sib Reb Lab",
+          "name": "Sol bemolle aggiunta nona",
+          "symbol": "Gbadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Sol Si Re La",
+          "name": "Sol aggiunta nona",
+          "symbol": "Gadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Lab Do Mib Sib",
+          "name": "La bemolle aggiunta nona",
+          "symbol": "Abadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "La Do# Mi Si",
+          "name": "La aggiunta nona",
+          "symbol": "Aadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Sib Re Fa Do",
+          "name": "Si bemolle aggiunta nona",
+          "symbol": "Bbadd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        },
+        {
+          "notes": "Si Re# Fa# Do#",
+          "name": "Si aggiunta nona",
+          "symbol": "Badd9",
+          "explanation": "Triade maggiore con nona aggiunta (senza settima)"
+        }
+      ]
+    },
+    "13": {
+      "description": "Mix di tutto",
+      "questionsPerRound": 10,
+      "chords": []
+    }
+  }
+}
