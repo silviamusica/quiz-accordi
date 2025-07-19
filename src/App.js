@@ -48,7 +48,7 @@ const Confetti = ({ show }) => {
   );
 };
 
-const ChordMaster= () => {
+const MiFaSol = () => {
   const [screen, setScreen] = useState('menu');
   const [level, setLevel] = useState(1);
   const [score, setScore] = useState(0);
@@ -62,7 +62,7 @@ const ChordMaster= () => {
   const [keyFilter, setKeyFilter] = useState('bianchi'); // 'bianchi', 'neri', 'entrambi'
   const [questionsPerGame, setQuestionsPerGame] = useState(10); // Numero di domande per partita
   const [unlockedLevels, setUnlockedLevels] = useState(() => {
-    const saved = localStorage.getItem('chordmaster-unlocked-levels');
+    const saved = localStorage.getItem('mifasol-unlocked-levels');
     let levels = saved ? JSON.parse(saved) : [1];
     
     // Migrazione dai vecchi numeri di livello ai nuovi
@@ -86,7 +86,7 @@ const ChordMaster= () => {
 
   // Salva i livelli sbloccati in localStorage
   useEffect(() => {
-    localStorage.setItem('chordmaster-unlocked-levels', JSON.stringify(unlockedLevels));
+    localStorage.setItem('mifasol-unlocked-levels', JSON.stringify(unlockedLevels));
   }, [unlockedLevels]);
 
   // Listener per combinazione tasti sviluppatore
@@ -166,46 +166,7 @@ const ChordMaster= () => {
         { notes: 'Si Re Fa#', name: 'Si minore', symbol: 'Bm', explanation: 'Triade minore: fondamentale + terza minore + quinta giusta' }
       ]
     },
-    3: { // Livello 3: Solo accordi diminuiti (tutti i 12 accordi)
-      questionsPerRound: 8,
-      chords: [
-        { notes: 'Do Mib Solb', name: 'Do diminuito', symbol: 'C°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Do# Mi Sol', name: 'Do diesis diminuito', symbol: 'C#°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Reb Fab Labb', name: 'Re bemolle diminuito', symbol: 'Db°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Re Fa Lab', name: 'Re diminuito', symbol: 'D°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Re# Fa# La', name: 'Re diesis diminuito', symbol: 'D#°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Mib Solb Sibb', name: 'Mi bemolle diminuito', symbol: 'Eb°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Mi Sol Sib', name: 'Mi diminuito', symbol: 'E°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Fa Lab Dob', name: 'Fa diminuito', symbol: 'F°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Fa# La Do', name: 'Fa diesis diminuito', symbol: 'F#°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Sol Sib Reb', name: 'Sol diminuito', symbol: 'G°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Sol# Si Re', name: 'Sol diesis diminuito', symbol: 'G#°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'La Do Mib', name: 'La diminuito', symbol: 'A°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'La# Do# Mi', name: 'La diesis diminuito', symbol: 'A#°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Sib Reb Fab', name: 'Si bemolle diminuito', symbol: 'Bb°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
-        { notes: 'Si Re Fa', name: 'Si diminuito', symbol: 'B°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' }
-      ]
-    },
-    4: { // Livello 4: Solo accordi aumentati (tutti i 12 accordi)
-      questionsPerRound: 8,
-      chords: [
-        { notes: 'Do Mi Sol#', name: 'Do aumentato', symbol: 'C+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Do# Mi# Sol##', name: 'Do diesis aumentato', symbol: 'C#+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Reb Fa La', name: 'Re bemolle aumentato', symbol: 'Db+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Re Fa# La#', name: 'Re aumentato', symbol: 'D+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Mib Sol Si', name: 'Mi bemolle aumentato', symbol: 'Eb+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Mi Sol# Si#', name: 'Mi aumentato', symbol: 'E+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Fa La Do#', name: 'Fa aumentato', symbol: 'F+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Fa# La# Do##', name: 'Fa diesis aumentato', symbol: 'F#+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Solb Sib Re', name: 'Sol bemolle aumentato', symbol: 'Gb+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Sol Si Re#', name: 'Sol aumentato', symbol: 'G+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Lab Do Mi', name: 'La bemolle aumentato', symbol: 'Ab+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'La Do# Mi#', name: 'La aumentato', symbol: 'A+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Sib Re Fa#', name: 'Si bemolle aumentato', symbol: 'Bb+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
-        { notes: 'Si Re# Fa##', name: 'Si aumentato', symbol: 'B+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' }
-      ]
-    },
-    5: { // Livello 5: Solo settime di dominante (tutti i 12 accordi)
+    3: { // Livello 3: Solo settime di dominante (tutti i 12 accordi)
       questionsPerRound: 8,
       chords: [
         { notes: 'Do Mi Sol Sib', name: 'Do settima', symbol: 'C7', explanation: 'Accordo di settima di dominante: triade maggiore + settima minore' },
@@ -224,7 +185,7 @@ const ChordMaster= () => {
         { notes: 'Si Re# Fa# La', name: 'Si settima', symbol: 'B7', explanation: 'Accordo di settima di dominante: triade maggiore + settima minore' }
       ]
     },
-    6: { // Livello 6: Solo settime maggiori (tutti i 12 accordi)
+    4: { // Livello 4: Solo settime maggiori (tutti i 12 accordi)
       questionsPerRound: 8,
       chords: [
         { notes: 'Do Mi Sol Si', name: 'Do settima maggiore', symbol: 'Cmaj7', explanation: 'Settima maggiore: triade maggiore + settima maggiore' },
@@ -243,7 +204,7 @@ const ChordMaster= () => {
         { notes: 'Si Re# Fa# La#', name: 'Si settima maggiore', symbol: 'Bmaj7', explanation: 'Settima maggiore: triade maggiore + settima maggiore' }
       ]
     },
-    7: { // Livello 7: Solo settime minori (tutti i 12 accordi minori settima)
+    5: { // Livello 5: Solo settime minori (tutti i 12 accordi minori settima)
       questionsPerRound: 8,
       chords: [
         { notes: 'Do Mib Sol Sib', name: 'Do minore settima', symbol: 'Cm7', explanation: 'Settima minore: triade minore + settima minore' },
@@ -264,7 +225,7 @@ const ChordMaster= () => {
         { notes: 'Si Re Fa# La', name: 'Si minore settima', symbol: 'Bm7', explanation: 'Settima minore: triade minore + settima minore' }
       ]
     },
-    8: { // Livello 8: Solo accordi di sesta (tutti i 12 accordi)
+    6: { // Livello 6: Solo accordi di sesta (tutti i 12 accordi)
       questionsPerRound: 8,
       chords: [
         { notes: 'Do Mi Sol La', name: 'Do maggiore sesta', symbol: 'C6', explanation: 'Accordo di sesta maggiore: triade maggiore + sesta maggiore' },
@@ -281,6 +242,45 @@ const ChordMaster= () => {
         { notes: 'La Do# Mi Fa#', name: 'La maggiore sesta', symbol: 'A6', explanation: 'Accordo di sesta maggiore: triade maggiore + sesta maggiore' },
         { notes: 'Sib Re Fa Sol', name: 'Si bemolle maggiore sesta', symbol: 'Bb6', explanation: 'Accordo di sesta maggiore: triade maggiore + sesta maggiore' },
         { notes: 'Si Re# Fa# Sol#', name: 'Si maggiore sesta', symbol: 'B6', explanation: 'Accordo di sesta maggiore: triade maggiore + sesta maggiore' }
+      ]
+    },
+    7: { // Livello 7: Solo accordi diminuiti (tutti i 12 accordi)
+      questionsPerRound: 8,
+      chords: [
+        { notes: 'Do Mib Solb', name: 'Do diminuito', symbol: 'C°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Do# Mi Sol', name: 'Do diesis diminuito', symbol: 'C#°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Reb Fab Labb', name: 'Re bemolle diminuito', symbol: 'Db°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Re Fa Lab', name: 'Re diminuito', symbol: 'D°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Re# Fa# La', name: 'Re diesis diminuito', symbol: 'D#°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Mib Solb Sibb', name: 'Mi bemolle diminuito', symbol: 'Eb°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Mi Sol Sib', name: 'Mi diminuito', symbol: 'E°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Fa Lab Dob', name: 'Fa diminuito', symbol: 'F°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Fa# La Do', name: 'Fa diesis diminuito', symbol: 'F#°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Sol Sib Reb', name: 'Sol diminuito', symbol: 'G°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Sol# Si Re', name: 'Sol diesis diminuito', symbol: 'G#°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'La Do Mib', name: 'La diminuito', symbol: 'A°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'La# Do# Mi', name: 'La diesis diminuito', symbol: 'A#°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Sib Reb Fab', name: 'Si bemolle diminuito', symbol: 'Bb°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' },
+        { notes: 'Si Re Fa', name: 'Si diminuito', symbol: 'B°', explanation: 'Triade diminuita: fondamentale + terza minore + quinta diminuita' }
+      ]
+    },
+    8: { // Livello 8: Solo accordi aumentati (tutti i 12 accordi)
+      questionsPerRound: 8,
+      chords: [
+        { notes: 'Do Mi Sol#', name: 'Do aumentato', symbol: 'C+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Do# Mi# Sol##', name: 'Do diesis aumentato', symbol: 'C#+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Reb Fa La', name: 'Re bemolle aumentato', symbol: 'Db+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Re Fa# La#', name: 'Re aumentato', symbol: 'D+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Mib Sol Si', name: 'Mi bemolle aumentato', symbol: 'Eb+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Mi Sol# Si#', name: 'Mi aumentato', symbol: 'E+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Fa La Do#', name: 'Fa aumentato', symbol: 'F+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Fa# La# Do##', name: 'Fa diesis aumentato', symbol: 'F#+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Solb Sib Re', name: 'Sol bemolle aumentato', symbol: 'Gb+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Sol Si Re#', name: 'Sol aumentato', symbol: 'G+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Lab Do Mi', name: 'La bemolle aumentato', symbol: 'Ab+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'La Do# Mi#', name: 'La aumentato', symbol: 'A+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Sib Re Fa#', name: 'Si bemolle aumentato', symbol: 'Bb+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' },
+        { notes: 'Si Re# Fa##', name: 'Si aumentato', symbol: 'B+', explanation: 'Triade aumentata: fondamentale + terza maggiore + quinta aumentata' }
       ]
     },
     9: { // Livello 9: Solo inversioni (slash chords) - tutte le inversioni
@@ -584,32 +584,6 @@ const ChordMaster= () => {
         </div>
       )
     },
-    'augmented-diminished': {
-      title: 'Accordi Aumentati e Diminuiti',
-      content: (
-        <div>
-          <h3 className="text-xl font-bold mb-2">Accordi Diminuiti (°)</h3>
-          <p className="mb-2">Una triade con due terze minori sovrapposte:</p>
-          <ul className="list-disc pl-6 mb-4">
-            <li><strong>Fondamentale</strong></li>
-            <li><strong>Terza minore:</strong> 3 semitoni sopra</li>
-            <li><strong>Quinta diminuita:</strong> 6 semitoni sopra (invece di 7)</li>
-          </ul>
-          <p className="mb-2">Esempio: C° = Do + Mib + Solb</p>
-          <p className="mb-4">Crea forte tensione e instabilità</p>
-          
-          <h3 className="text-xl font-bold mb-2">Accordi Aumentati (+)</h3>
-          <p className="mb-2">Una triade con due terze maggiori sovrapposte:</p>
-          <ul className="list-disc pl-6 mb-4">
-            <li><strong>Fondamentale</strong></li>
-            <li><strong>Terza maggiore:</strong> 4 semitoni sopra</li>
-            <li><strong>Quinta aumentata:</strong> 8 semitoni sopra (invece di 7)</li>
-          </ul>
-          <p className="mb-2">Esempio: C+ = Do + Mi + Sol#</p>
-          <p>Suono misterioso e ambiguo</p>
-        </div>
-      )
-    },
     'sevenths': {
       title: 'Accordi di Settima',
       content: (
@@ -637,6 +611,32 @@ const ChordMaster= () => {
             <li>Esempio: Am7 = La + Do + Mi + Sol</li>
             <li>Molto usato nel jazz e nella musica moderna</li>
           </ul>
+        </div>
+      )
+    },
+    'augmented-diminished': {
+      title: 'Accordi Aumentati e Diminuiti',
+      content: (
+        <div>
+          <h3 className="text-xl font-bold mb-2">Accordi Diminuiti (°)</h3>
+          <p className="mb-2">Una triade con due terze minori sovrapposte:</p>
+          <ul className="list-disc pl-6 mb-4">
+            <li><strong>Fondamentale</strong></li>
+            <li><strong>Terza minore:</strong> 3 semitoni sopra</li>
+            <li><strong>Quinta diminuita:</strong> 6 semitoni sopra (invece di 7)</li>
+          </ul>
+          <p className="mb-2">Esempio: C° = Do + Mib + Solb</p>
+          <p className="mb-4">Crea forte tensione e instabilità</p>
+          
+          <h3 className="text-xl font-bold mb-2">Accordi Aumentati (+)</h3>
+          <p className="mb-2">Una triade con due terze maggiori sovrapposte:</p>
+          <ul className="list-disc pl-6 mb-4">
+            <li><strong>Fondamentale</strong></li>
+            <li><strong>Terza maggiore:</strong> 4 semitoni sopra</li>
+            <li><strong>Quinta aumentata:</strong> 8 semitoni sopra (invece di 7)</li>
+          </ul>
+          <p className="mb-2">Esempio: C+ = Do + Mi + Sol#</p>
+          <p>Suono misterioso e ambiguo</p>
         </div>
       )
     },
@@ -2436,4 +2436,4 @@ const ChordMaster= () => {
   );
 };
 
-export default ChordMaster;
+export default MiFaSol;

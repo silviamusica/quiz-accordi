@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MiFaSol",
+  "name": "MiFaSol - Gioco di accordi musicali",
   "icons": [
     {
       "src": "favicon.ico",
