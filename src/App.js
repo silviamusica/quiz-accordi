@@ -1187,9 +1187,9 @@ const MiFaSol = () => {
       </div>
       
       <div className="space-y-4">
-        <button onClick={() => setScreen('learn')} className="w-full bg-green-500 text-white py-3 px-6 rounded-lg hover:bg-green-600 transition-colors">
+        {/* <button onClick={() => setScreen('learn')} className="w-full bg-green-500 text-white py-3 px-6 rounded-lg hover:bg-green-600 transition-colors">
           📚 Impara
-        </button>
+        </button> */}
         <button 
           onClick={() => {
             if (!unlockedLevels.includes(level)) {
